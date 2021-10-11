@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root{
+    --primary-color-1: #17431B;
+    --sec-color-2:  #B1D2A8;
+    --tert-color-3:  #FFFFFF;
+    --text-color:#000000;
+    --hover-color:#3BBA9C;
+    --primary-font: 'Raleway', sans-serif;
+    --sec-font : 'Playfair Display', serif;
+}
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: var(--sec-font);
+}
+h1,h3{
+   font-size: 2em;
+   font-weight: bold;
+}
+h2{
+   font-size: 1.6em;
+}
+h4{
+   font-size: 1.1em;
+}
+img{
+   width: auto ;
+   /* max-width: 100%;   */
+   height: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* Nav-bar-Section */
+header{
+  background: var(--primary-color-1);
+  position: sticky;
+  top: 0;
+   z-index: 1;
+  /*box-shadow: 1px 2px 5px rgba(0,0,0, 0.7); */
+}
+.nav-style{
+     margin: 0px 40px;
+     padding: 30px 10px;
+     cursor: pointer;
+}
+.head-logo{
+     font-size: 2em;
+}
+.nav-style h1 a{
+    grid-column: 1/4;
+    grid-row: 1;
+    color: var(--tert-color-3);
+    font-family: var(--sec-font);
+}
+.nav-style ul{
+    display: flex;
+    align-self: center;
+    grid-column: 5/12;
+    font-family: var(--primary-font);
+    font-size: .9em;
+}
+.nav-style li{
+    padding: 0 20px;
+}
+.nav-style li a{
+   color: var(--tert-color-3);
+}
+.nav-style li a:hover{
+    color: var(--hover-color);
+}
+.login{
+    background: var(--tert-color-3);
+   outline: none;
+   border: none;
+   border-radius: 6px;
+   grid-column: 13/14;
+   padding: 0px 15px;
+}
+.login a{
+    color: var(--text-color);
+    font-size: 1.2em;
+    font-weight:bolder;
+    font-family: var(--primary-font);
+}
+.login:hover{
+    background: var(--sec-color-2);
+}
+
+.login a:hover{
+  color: var(--tert-color-3);
+}
+/* Hero-Section */
+.hero-section{
+    background: var(--primary-color-1);
+    height: 590px;
+}
+.cover-image{
+     grid-column: 1/5;
+    background-image:url(../asserts/Vector.png);
+    background-repeat: no-repeat;
+    margin: 50px 11px 10px 40px;
+}
+.cover-image img{
+   max-width: 180%;
+
+}
+.welcome-texts{
+     margin-top:50px;
+    grid-column: 6/11;
+}
+.welcome-texts-h4{
+font-size: 1.8em;
+color: white;
+font-family: var(--primary-font);
+}
+.welcome-texts-h1{
+    font-size: 4em;
+    font-family: var(--sec-font);
+    color: white;
+    font-weight: 700;  
+}
+.welcome-texts-p{
+     font-size: 0.8em;
+     color: white;
+     width: 70%;
+}
+.n-button,.v-button{
+    margin: 20px 20px 0px 0px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.n-button{
+   background: #FFFFFF;
+}
+.n-button:hover{
+    background: var(--sec-color-2); 
+}
+.n-button a{
+    font-family: var(--primary-font);
+    color: #000000;
+    font-size: .8em;
+    font-weight: 800; 
+}
+.n-button a:hover{
+  color: white;
+}
+.v-button{
+    background: #B1D2A8;
+}
+.v-button:hover{
+    background: #FFFFFF;
+}
+.v-button a{
+    font-family: var(--primary-font);
+    font-size: .8em;
+    font-weight: 800; 
+    color: white;
+}
+.v-button a:hover{
+     color: #000000;
+}
+
+
+.bball-images{
+     margin-top: 20px;
+    grid-column: 12/14;
+}
+.bball-images .ball,
+.bball-images .ball-basket{
+    margin: 35px;
+    padding: 10px;
+}
+.bball-images .ball:nth-child(2){
+    border: 2px solid white;
+    align-self: center;
+    border-radius: 50px;
+}
+.bball-images .ball:hover,.bball-images .ball img:hover{
+    border: 2px solid white;
+    align-self: center;
+    border-radius: 50px;
+}
+
+/*  A-Logo Section */
+.a-logo{
+    height: 200px;
+    background: var(--sec-color-2);
+}
+.logo{
+     padding: 20px 10px;
+     align-self: center;
+}
+.logo:nth-child(1){
+grid-column: 1/3;
+}
+.logo:nth-child(2){
+grid-column: 4/6;
+}
+.logo:nth-child(3){
+grid-column: 7/9;
+}
+.logo:nth-child(4){
+grid-column: 10/12;
+}
+.logo:nth-child(5){
+grid-column: 13/15;
+}
