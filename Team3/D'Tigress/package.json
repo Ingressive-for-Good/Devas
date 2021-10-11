@@ -1,0 +1,21 @@
+{
+  "name": "d-tigress",
+  "version": "1.0.0",
+  "description": "team3 project for the october hack. dTigress",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "tailwindcss build styles/tailwindconfig.css -o styles/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cd .. && cd .."
+  },
+  "keywords": [
+    "tigress"
+  ],
+  "author": "KogeSage & Spykelion",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^2.2.16"
+  }
+}
