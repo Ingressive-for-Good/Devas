@@ -1,22 +1,18 @@
-// var slidePosition = 1;
-// SlideShow(slidePosition);
+const hamburger  = document.querySelector(".hamburger");
+const navMenu  = document.querySelector(".nav-link");
+const navA  = document.querySelectorAll(".nav-link a");
 
-// function currentSlide(n){
-//     SlideShow(slidePosition += n);
-// }
+navA.forEach(n => n.addEventListener("click", closeMenu));
 
-// function SlideShow(n) {
-//     var i;
-//     var slides = document.getElementsByClassName("Containers");
-//     var circles = document.getElementsByClassName("dots");
-//     if (n > slides.length) {slidePosition = 1}
-//     if (n < 1) {slidePosition = slides.length}
-//     for (i = 0; i < slides.length; i++) {
-//         slides[i].style.display = "none";
-//     }
-//     for (i = 0; i < circles.length; i++){
-//         circles[i].className = circles[i].className.replace(" enable", "");
-//     }
-//     slides[slidePosition-1].style.display = "block";
-//     slides[slidePosition-1].className += " enable";
-// };
+function closeMenu(){
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
