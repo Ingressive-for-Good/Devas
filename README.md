@@ -12,7 +12,7 @@ CONTRIBUTION GUIDE
 
 4. Run: `git remote -v` to ensure your origin and upstream is set
 
-5. Create a branch with your name as this is where the testing and this is the branch all work will be taking place and the branch you will be creating a PR from: `git checkout -b NameofBranch` .
+5. Create a branch with your name as this is where the testing and this is the branch all work will be taking place and the branch you will be creating a PR from: `git checkout dev` .
 
 6. Get the latest code from the parent repo and merge : `git pull upstream dev`
 
@@ -28,7 +28,7 @@ Tip 💡: You can check the files yet to be staged and committed with git status
 
 Then check the parent repo if there has been any update since the last time you pull to avoid conflicts and have a work that is in sync by pulling from the parent repo again: `git pull upstream <name of branch>`
 
-Once it is done merging, push your changes to your own repo: `git push origin <name of branch>`
+Once it is done merging, push your changes to your own repo: `git push origin dev`
 
 Then go to your repo, click on make contributions (if create a pull request doesn't show up) and create a pull request.
 
