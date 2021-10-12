@@ -9,13 +9,105 @@ body {
     margin: 0;
     padding: 0;
     font-family: Raleway, Helvetica, sans-serif;
+    font-style: normal;
 }
 
 .partner {
     background: #f6f6f6;
-    position: absolute;
     width: 100vw;
     display: flex;
     justify-content: space-around;
     padding: 20px;
+}
+
+.contact {
+    background-color: #2e3047;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(1fr, 2);
+    grid-template-rows: auto;
+    grid-gap: 100px;
+}
+
+.left {
+    grid-column: 1/2;
+    color: #fff;
+}
+
+.left h3 {
+    color: #3bba9c;
+    text-transform: uppercase;
+    width: 226px;
+    /* left: 70px;
+    top: 4209px; */
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.right {
+    grid-column: 2/3;
+    color: #3bba9c;
+    margin-top: 30px;
+}
+
+form label {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+input {
+    width: 100%;
+    border-radius: 50px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #fff;
+    margin: 5px 0 20px 0;
+    padding: 15px;
+}
+
+hr {
+    width: 50%;
+    background-color: #3bba9c;
+    height: 2px;
+    border: 1px solid #3bba9c;
+}
+
+button {
+    background-color: #3bba9c;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #3bba9c;
+    width: 200px;
+    color: #fff;
+    padding: 20px 0 20px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.textarea {
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #fff;
+    margin: 5px 0 20px 0;
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.fas {
+    color: #3bba9c;
 }
