@@ -197,3 +197,13 @@
     font-weight: normal;
     font-style: italic;
 }
+
+/* Alex Brush */
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('fonts/Alex_Brush/AlexBrush-Regular.woff2') format('woff2'),
+        url('fonts/Alex_Brush/AlexBrush-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
