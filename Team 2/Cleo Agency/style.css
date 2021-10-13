@@ -65,7 +65,7 @@ body {
 
 .partner {
     background: #f6f6f6;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -199,6 +199,7 @@ body {
     grid-template-columns: repeat(1fr, 2);
     grid-template-rows: auto;
     grid-gap: 100px;
+    width: 100%;
 }
 
 .left {
@@ -238,6 +239,11 @@ input {
     padding: 15px;
 }
 
+input:focus,
+textarea:focus {
+    border: 2px solid #3bba9c;
+}
+
 hr {
     width: 50%;
     background-color: #3bba9c;
@@ -251,10 +257,19 @@ button {
     outline: none;
     border: 1px solid #3bba9c;
     width: 200px;
-    color: #fff;
     padding: 20px 0 20px 0;
     font-weight: bold;
     font-size: 18px;
+}
+
+input:hover,
+textarea:hover {
+    transform: scale(0.999);
+}
+
+button:hover {
+    transform: scale(0.98);
+    border: 2px solid #fff;
 }
 
 .textarea {
@@ -280,8 +295,22 @@ i {
     margin-right: 10px;
 }
 
-.fas {
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fas,
+.fab {
     color: #3bba9c;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 20px 0 0 0;
 }
 
 @media only screen and (max-width:1024px){
