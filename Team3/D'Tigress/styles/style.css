@@ -68,7 +68,7 @@ header{
     font-family: var(--sec-font);
 }
 .nav-style ul{
-    display: flex;
+    /* display: flex;  it defaults to*!important*, causing some tw styles to sink */ 
     align-self: center;
     grid-column: 5/12;
     font-family: var(--primary-font);
@@ -220,3 +220,7 @@ grid-column: 10/12;
 .logo:nth-child(5){
 grid-column: 13/15;
 }
+
+/* .list {
+    @apply tw-hidden lg:tw-flex tw-flex-col lg:tw-flex-row !important;
+} */
