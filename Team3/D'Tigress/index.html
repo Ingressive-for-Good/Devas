@@ -1,82 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Fav Icon link-->
     <link rel="shortcut icon" href="./asserts/basket-ball-icon.ico" />
-    <link rel="stylesheet" href="/Team3/D'Tigress/styles/style.css">
     <link rel="stylesheet" href="styles/tailwind.css">
+    <link rel="stylesheet" href="/Team3/D'Tigress/styles/style.css">
 
     <title>D'Tigress| BasketBall Team</title>
 
 </head>
-<body>
+
+<body class="">
     <header>
-        <nav class="nav-style grid">
-            <h1 class="head-logo"><a href="/Team3/D'Tigress/index.html">D’Tigress</a></h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">D’Tigers</a></li>
-            </ul>
-            <button class="login"><a href="#">Login/Register</a></button>
+        <nav class="nav-style tw-flex tw-justify-between">
+            <h1 class="head-logo tw-col-span-1 "><a href="index.html">D’Tigress</a></h1>
+            <div
+                class="tw-relative tw-col-span-5 tw-flex tw-flex-col lg:tw-flex-row tw-text-center tw-self-center tw-top-2">
+                <ul id="menu-list" class="tw-hidden lg:tw-flex tw-flex-col lg:tw-flex-row">
+                    <li class="tw-my-2"><a href="#">Home</a></li>
+                    <li class="tw-my-2"><a href="#">Shop</a></li>
+                    <li class="tw-my-2"><a href="#">News</a></li>
+                    <li class="tw-my-2"><a href="#">Events</a></li>
+                    <li class="tw-my-2"><a href="#">About</a></li>
+                    <li class="tw-my-2"><a href="#">Contact</a></li>
+                    <li class="tw-my-2"><a href="#">D’Tigers</a></li>
+                    <button class="login"><a href="#">Login/Register</a></button>
+                </ul>
+                <button id="menu"
+                    class="login tw-block lg:tw-hidden tw-self-center tw-absolute tw--top-5 tw--right-10">menu</button>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="hero-section grid">
-            <div class="cover-image">
-                <img src="/Team3/D'Tigress/asserts/female-baller-holding-ball.png" alt="female-baller-holding-ball">
+        <section class="hero-section tw-mt-0 tw-px-10 sm:tw-grid">
+            <div class="cover-image tw-hidden sm:tw-block">
+                <img src="./asserts/female-baller-holding-ball.png" alt="female-baller-holding-ball">
             </div>
             <div class="welcome-texts">
-                <h4 class="welcome-texts-h4">The Official</h4>
+                <h4 class="welcome-texts-h4 tw-font-light">The Official</h4>
                 <h1 class="welcome-texts-h1">D’TIGRESS</h1>
-                <p class="welcome-texts-p">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <p class="welcome-texts-p">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
                 <button class="n-button"><a href="#">News & Events</a></button>
                 <button class="v-button"><a href="#">Vist Our Shop</a></button>
             </div>
-            <div class="bball-images">
+            <div class="bball-images tw-hidden lg:tw-block">
                 <div class="ball">
-                    <img src="/Team3/D'Tigress/asserts/ball.png" alt="">
+                    <img src="./asserts/ball.png" alt="">
                 </div>
                 <div class="ball">
-                    <img src="/Team3/D'Tigress/asserts/whiteball.png" alt="">
+                    <img src="./asserts/whiteball.png" alt="">
                 </div>
                 <div class="ball">
-                    <img src="/Team3/D'Tigress/asserts/ball.png" alt="">
+                    <img src="./asserts/ball.png" alt="">
                 </div>
                 <div class="ball">
-                    <img src="/Team3/D'Tigress/asserts/ball.png" alt="">
+                    <img src="./asserts/ball.png" alt="">
                 </div>
                 <div class="ball-basket">
-                    <img src="/Team3/D'Tigress/asserts/basket.png" alt="">
+                    <img src="./asserts/basket.png" alt="">
                 </div>
             </div>
         </section>
         <section class="a-logo grid">
             <div class="logo">
-                <img src="/Team3/D'Tigress/asserts/A-logo.png" alt="">
+                <img src="./asserts/A-logo.png" alt="">
             </div>
             <div class="logo">
-                <img src="/Team3/D'Tigress/asserts/A-logo.png" alt="">
+                <img src="./asserts/A-logo.png" alt="">
             </div>
             <div class="logo">
-                <img src="/Team3/D'Tigress/asserts/A-logo.png" alt="">
+                <img src="./asserts/A-logo.png" alt="">
             </div>
             <div class="logo">
-                <img src="/Team3/D'Tigress/asserts/A-logo.png" alt="">
+                <img src="./asserts/A-logo.png" alt="">
             </div>
             <div class="logo">
-                <img src="/Team3/D'Tigress/asserts/A-logo.png" alt="">
+                <img src="./asserts/A-logo.png" alt="">
             </div>
+        </section>
+        <section class="squad">
+            <h4 class="squad-merch-h4">SQUAD</h4>
+            <h1 class="squad-merch-h1">Meet the team</h1>
+            <div class="a-team grid">
+                <div class="team">
+                    <img src="/Team3/D'Tigress/asserts/dtigress-1.png" alt="">
+                </div>
+                <div class="team">
+                    <img src="/Team3/D'Tigress/asserts/dtigress-2.png" alt="">
+                </div>
+                <div class="team">
+                    <img src="/Team3/D'Tigress/asserts/dtigress-3.png" alt="">
+                </div>
+                <div class="team">
+                    <img src="/Team3/D'Tigress/asserts/dtigress-4.png" alt="">
+                </div>
+                <button class="squad-button">View All</button>
+            </div>
+        </section>
+        <section class="d-merch">
+            <h4 class="squad-merch-h4">MERCH</h4>
+            <h1 class="squad-merch-h1">Shop Exclusive Items</h1>
+            <div class="a-merch grid">
+                <div class="merch">
+                    <h5 class="merch-h5">Limited Edition</h5>
+                    <img src="/Team3/D'Tigress/asserts/Sneakers White.G05 1.png" alt="">
+                    <div class="g-flex">
+                        <img src="/Team3/D'Tigress/asserts/Group 4.png" alt="">
+                    </div>
 
+                    <div class="squad-text">
+                        <h4 class="merch-h4">Running Shoes</h4>
+                        <p class="merch-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            ... </p>
+                    </div>
+                    <div class="flex">
+                        <img src="/Team3/D'Tigress/asserts/basketball-hoop.png" alt="">
+                        <p class="flex-p">Add to Cart</p>
+                    </div>
+                </div>
+                <div class="merch">
+                    <h5 class="merch-h5">Limited Edition</h5>
+                    <img src="/Team3/D'Tigress/asserts/Sneakers White.G05 1.png" alt="">
+                    <div class="g-flex">
+                        <img src="/Team3/D'Tigress/asserts/Group 4.png" alt="">
+                    </div>
+
+                    <div class="squad-text">
+                        <h4 class="merch-h4">Running Shoes</h4>
+                        <p class="merch-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            ... </p>
+                    </div>
+                    <div class="flex">
+                        <img src="/Team3/D'Tigress/asserts/basketball-hoop.png" alt="">
+                        <p class="flex-p">Add to Cart</p>
+                    </div>
+                </div>
+                <div class="merch">
+                    <h5 class="merch-h5">Limited Edition</h5>
+                    <img src="/Team3/D'Tigress/asserts/Sneakers White.G05 1.png" alt="">
+                    <div class="g-flex">
+                        <img src="/Team3/D'Tigress/asserts/Group 4.png" alt="">
+                    </div>
+
+                    <div class="squad-text">
+                        <h4 class="merch-h4">Running Shoes</h4>
+                        <p class="merch-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            ... </p>
+                    </div>
+                    <div class="flex">
+                        <img src="/Team3/D'Tigress/asserts/basketball-hoop.png" alt="">
+                        <p class="flex-p">Add to Cart</p>
+                    </div>
+                </div>
+                <div class="merch">
+                    <h5 class="merch-h5">Limited Edition</h5>
+                    <img src="/Team3/D'Tigress/asserts/Sneakers White.G05 1.png" alt="">
+                    <div class="g-flex">
+                        <img src="/Team3/D'Tigress/asserts/Group 4.png" alt="">
+                    </div>
+
+                    <div class="squad-text">
+                        <h4 class="merch-h4">Running Shoes</h4>
+                        <p class="merch-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            ... </p>
+                    </div>
+                    <div class="flex">
+                        <img src="/Team3/D'Tigress/asserts/basketball-hoop.png" alt="">
+                        <p class="flex-p">Add to Cart</p>
+                    </div>
+                </div>
+                <div class="merch">
+                    <h5 class="merch-h5">Limited Edition</h5>
+                    <img src="/Team3/D'Tigress/asserts/Sneakers White.G05 1.png" alt="">
+                    <div class="g-flex">
+                        <img src="/Team3/D'Tigress/asserts/Group 4.png" alt="">
+                    </div>
+
+                    <div class="squad-text">
+                        <h4 class="merch-h4">Running Shoes</h4>
+                        <p class="merch-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            ... </p>
+                    </div>
+                    <div class="flex">
+                        <img src="/Team3/D'Tigress/asserts/basketball-hoop.png" alt="">
+                        <p class="flex-p">Add to Cart</p>
+                    </div>
+                </div>
+                <button class="merch-button">View Shop</button>
+            </div>
         </section>
     </main>
+    <script src="./scripts/app.js"></script>
 </body>
+
 </html>

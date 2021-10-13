@@ -8,8 +8,55 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     font-family: Raleway, Helvetica, sans-serif;
     font-style: normal;
+}
+
+#about{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#about img {
+    padding: 15px;
+    width: 530px;
+    height: 583px;
+    filter: drop-shadow(5px 7px 7px rgba(46, 48, 71, 0.21));
+}
+
+.about-text {
+    align-self: normal;
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.about-text h3 {
+    text-transform: uppercase;
+    color: #3bba9c;
+    font-size: 2.25em;
+    line-height: 42.26px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+
+.about-text p:first-of-type, .about-text p:nth-of-type(2){
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 21.3px;
+    padding-right: 90px;
+}
+
+.about-text p:nth-of-type(3){
+    color: #3bba9c;
+    font-weight: 400;
+    line-height: 45px;
+    font-size: 2.25em;
+    font-family: "Alex Brush";
 }
 
 .partner {
@@ -139,4 +186,10 @@ footer {
     background: #fff;
     text-align: center;
     padding: 20px 0 0 0;
+}
+
+@media only screen and (max-width:1024px){
+    #about{
+        flex-wrap: wrap;
+    }
 }
