@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Fav Icon link-->
     <link rel="shortcut icon" href="./asserts/basket-ball-icon.ico" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <!-- Style Files -->
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/tailwind.css">
 
@@ -18,17 +25,16 @@
     <header>
         <nav class="nav-style tw-flex tw-justify-between">
             <h1 class="head-logo tw-col-span-1 "><a href="index.html">D’Tigress</a></h1>
-            <div
-                class="tw-relative tw-col-span-5 tw-flex tw-flex-col lg:tw-flex-row tw-text-center tw-self-center tw-top-2">
+            <div class="tw-relative tw-col-span-5 tw-flex tw-flex-col lg:tw-flex-row tw-text-center tw-self-center tw-top-2">
                 <ul id="menu-list" class="tw-hidden lg:tw-flex tw-flex-col lg:tw-flex-row">
-                    <li class="tw-my-2"><a href="#">Home</a></li>
-                    <li class="tw-my-2"><a href="#">Shop</a></li>
-                    <li class="tw-my-2"><a href="#">News</a></li>
-                    <li class="tw-my-2"><a href="#">Events</a></li>
-                    <li class="tw-my-2"><a href="#">About</a></li>
-                    <li class="tw-my-2"><a href="#">Contact</a></li>
-                    <li class="tw-my-2"><a href="#">D’Tigers</a></li>
-                    <button class="login"><a href="#">Login/Register</a></button>
+                    <li class="tw-my-4"><a href="index.html">Home</a></li>
+                    <li class="tw-my-4"><a href="#d-merch">Shop</a></li>
+                    <li class="tw-my-4"><a href="#news-event">News</a></li>
+                    <li class="tw-my-4"><a href="#news-event">Events</a></li>
+                    <li class="tw-my-4"><a href="#blacksuqad">About</a></li>
+                    <li class="tw-my-4"><a href="#contact">Contact</a></li>
+                    <li class="tw-my-4"><a href="#squad">D’Tigers</a></li>
+                    <button class="login"><a href="#blacksuqad">Login/Register</a></button>
                 </ul>
                 <button id="menu"
                     class="login tw-block lg:tw-hidden tw-self-center tw-absolute tw--top-5 tw--right-10">menu</button>
@@ -37,8 +43,8 @@
     </header>
     <main>
         <section class="hero-section tw-mt-0 tw-px-10 sm:tw-grid">
-            <div class="tw-flex">
-                <div class="cover-image sm:tw-block">
+            <div class="tw-flex justify-center sm:flex-col">
+                <div class="cover-image">
                     <img src="./asserts/female-baller-holding-ball.png" alt="female-baller-holding-ball">
                 </div>
                 <div class="welcome-texts">
@@ -72,38 +78,38 @@
                 </div>
             </div>
         </section>
-        <section class="a-logo grid">
-            <div class="logo">
+        <section class="a-logo tw-flex tw-flex-row">
+            <div class="logo tw-mx-4">
                 <img src="./asserts/A-logo.png" alt="">
             </div>
-            <div class="logo">
+            <div class="logo tw-mx-4">
                 <img src="./asserts/A-logo.png" alt="">
             </div>
-            <div class="logo">
+            <div class="logo tw-mx-4">
                 <img src="./asserts/A-logo.png" alt="">
             </div>
-            <div class="logo">
+            <div class="logo tw-mx-4">
                 <img src="./asserts/A-logo.png" alt="">
             </div>
-            <div class="logo">
+            <div class="logo tw-mx-4">
                 <img src="./asserts/A-logo.png" alt="">
             </div>
         </section>
-        <section class="squad tw-bg-green-100">
+        <section id="squad">
             <h4 class="squad-merch-h4 tw-text-center sm:tw-text-justify">SQUAD</h4>
             <h1 class="squad-merch-h1 tw-text-center sm:tw-text-justify">Meet the team</h1>
             <div class="a-team sm:tw-flex tw-justify-center">
                 <div class="team tw-flex tw-justify-center tw-py-2">
-                    <img src="/asserts/dtigress-1.png" alt="">
+                    <img src="./asserts/dtigress-1.png" alt="">
                 </div>
                 <div class="team tw-flex tw-justify-center tw-py-2">
-                    <img src="/asserts/dtigress-2.png" alt="">
+                    <img src="./asserts/dtigress-2.png" alt="">
                 </div>
                 <div class="team tw-flex tw-justify-center tw-py-2">
-                    <img src="/asserts/dtigress-3.png" alt="">
+                    <img src="./asserts/dtigress-3.png" alt="">
                 </div>
                 <div class="team tw-flex tw-justify-center tw-py-2">
-                    <img src="/asserts/dtigress-4.png" alt="">
+                    <img src="./asserts/dtigress-4.png" alt="">
                 </div>
             </div>
             <div class="tw-text-center">
@@ -111,15 +117,15 @@
                 <button class="squad-button tw-px-2">View All</button>
             </div>
         </section>
-        <section class="d-merch">
+        <section id="d-merch">
             <h4 class="squad-merch-h4">MERCH</h4>
             <h1 class="squad-merch-h1">Shop Exclusive Items</h1>
             <div class="a-merch grid tw-grid-cols-2 md:tw-grid-cols-3 lg:tw-grid-cols-5 ">
-                <div class=" merch">
+                <div class="merch">
                     <h5 class="merch-h5">Limited Edition</h5>
-                    <img src="/asserts/Sneakers White.G05 1.png" alt="">
+                    <img src="./asserts/Sneakers White.G05 1.png" alt="">
                     <div class="g-flex">
-                        <img src="/asserts/Group 4.png" alt="">
+                        <img src="./asserts/Group 4.png" alt="">
                     </div>
 
                     <div class="squad-text">
@@ -128,15 +134,15 @@
                             ... </p>
                     </div>
                     <div class="flex">
-                        <img src="/asserts/basketball-hoop.png" alt="">
+                        <img src="./asserts/basketball-hoop.png" alt="">
                         <p class="flex-p">Add to Cart</p>
                     </div>
                 </div>
                 <div class="merch">
                     <h5 class="merch-h5">Limited Edition</h5>
-                    <img src="/asserts/Sneakers White.G05 1.png" alt="">
+                    <img src="./asserts/Sneakers White.G05 1.png" alt="">
                     <div class="g-flex">
-                        <img src="/asserts/Group 4.png" alt="">
+                        <img src="./asserts/Group 4.png" alt="">
                     </div>
 
                     <div class="squad-text">
@@ -145,15 +151,15 @@
                             ... </p>
                     </div>
                     <div class="flex">
-                        <img src="/asserts/basketball-hoop.png" alt="">
+                        <img src="./asserts/basketball-hoop.png" alt="">
                         <p class="flex-p">Add to Cart</p>
                     </div>
                 </div>
                 <div class="merch">
                     <h5 class="merch-h5">Limited Edition</h5>
-                    <img src="/asserts/Sneakers White.G05 1.png" alt="">
+                    <img src="./asserts/Sneakers White.G05 1.png" alt="">
                     <div class="g-flex">
-                        <img src="/asserts/Group 4.png" alt="">
+                        <img src="./asserts/Group 4.png" alt="">
                     </div>
 
                     <div class="squad-text">
@@ -162,15 +168,15 @@
                             ... </p>
                     </div>
                     <div class="flex">
-                        <img src="/asserts/basketball-hoop.png" alt="">
+                        <img src="./asserts/basketball-hoop.png" alt="">
                         <p class="flex-p">Add to Cart</p>
                     </div>
                 </div>
                 <div class="merch">
                     <h5 class="merch-h5">Limited Edition</h5>
-                    <img src="/asserts/Sneakers White.G05 1.png" alt="">
+                    <img src="./asserts/Sneakers White.G05 1.png" alt="">
                     <div class="g-flex">
-                        <img src="/asserts/Group 4.png" alt="">
+                        <img src="./asserts/Group 4.png" alt="">
                     </div>
 
                     <div class="squad-text">
@@ -179,17 +185,17 @@
                             ... </p>
                     </div>
                     <div class="flex">
-                        <img src="/asserts/basketball-hoop.png" alt="">
+                        <img src="./asserts/basketball-hoop.png" alt="">
                         <p class="flex-p">Add to Cart</p>
                     </div>
                 </div>
                 <div class="merch">
                     <h5 class="merch-h5">Limited Edition</h5>
 
-                    <img src="/asserts/Sneakers White.G05 1.png" alt="">
+                    <img src="./asserts/Sneakers White.G05 1.png" alt="">
 
                     <div class="g-flex">
-                        <img src="/asserts/Group 4.png" alt="">
+                        <img src="./asserts/Group 4.png" alt="">
                     </div>
 
                     <div class="squad-text">
@@ -198,7 +204,7 @@
                             ... </p>
                     </div>
                     <div class="flex">
-                        <img src="/asserts/basketball-hoop.png" alt="">
+                        <img src="./asserts/basketball-hoop.png" alt="">
                         <p class="flex-p">Add to Cart</p>
                     </div>
                 </div>
@@ -207,6 +213,91 @@
                 <button class="tw-px-2 merch-button">View Shop</button>
             </div>
         </section>
+        <section id="news-event">
+            <h4 class="news-event-h4">NEWS & EVENTS</h4>
+            <h1 class="news-event-h1">Stay Updated With The Team</h1>
+            <div class="news-event-main grid">
+                <div class="news-event-first-sec">
+                    <div class="advert-sec">
+                        <div class="advert">
+                            <img src="./asserts/GameOn.png" alt="">
+                            <div class="advert-text">
+                                <h2>Game on</h2>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium...</p>
+                                <a href="#">Read More <span><i class="fas fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                        <div class="advert">
+                            <img src="./asserts/Coach Assures.png" alt="">
+                            <div class="advert-text">
+                                <h2>Coach Assures</h2>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium...</p>
+                                <a href="#">Read More <span><i class="fas fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                        <div class="advert">
+                            <img src="./asserts/New Merch.png" alt="">
+                            <div class="advert-text">
+                                <h2>New Merch</h2>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium...</p>
+                                <a href="#">Read More <span><i class="fas fa-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="te">
+                        <button class="tw-px-10 news-button">View Blog</button>
+                    </div>
+                </div>
+                <div class="news-event-second-sec">
+                <h3>Upcoming Events</h3>
+                <div class="upcoming">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium...</p>
+                    <h6><i class="fas fa-clock"></i> <span>Sept 20, 2021</span></h6>
+                </div>
+                <div class="upcoming">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium...</p>
+                    <h6><i class="fas fa-clock"></i> <span>Sept 20, 2021</span></h6>
+                </div>
+                <div class="upcoming">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium...</p>
+                    <h6><i class="fas fa-clock"></i> <span>Sept 20, 2021</span></h6>
+                </div>
+                <div class="tet">
+                    <button class="tw-px-10 event-button">View Calendar</button>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="blacksuqad">
+            <div class="b-flex">
+                <img src="./asserts/Mask Group 1.png" alt="">
+                <img src="./asserts/Mask Group 2.png" alt="">
+                <img src="./asserts/Mask Group 3.png" alt="">
+                <img src="./asserts/Mask Group 4.png" alt="">
+                <img src="./asserts/Mask Group 5.png" alt="" width="50%" height="30%">
+            </div>
+            <div class="b-flex">
+                <img src="./asserts/Mask Group 6.png" alt="">
+                <img src="./asserts/Mask Group 7.png" alt="">
+                <img src="./asserts/Mask Group 8.png" alt="">
+                <img src="./asserts/Mask Group 9.png" alt="">
+                <img src="./asserts/Mask Group 10.png" alt="">
+            </div>
+        </section>
+        <section id="contact" class="grid">
+            <div class="contact-text">
+                <h4 class="contact-h4">STAY UPDATED</h4>
+                <h1 class="contact-h1">News Letter Signup</h1>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <input type="email" placeholder="Enter A Valid Email Address" required>
+                   <input type="submit" value="Submit">
+                </form>
+            </div>
+            
+        </section>
+        <footer id="foot"></footer>
     </main>
     <script src="./scripts/app.js"></script>
 </body>
