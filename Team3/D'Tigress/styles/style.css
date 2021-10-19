@@ -478,7 +478,46 @@ form input[type = 'submit']:hover{
 #foot{
     height: 300px;
     background:#FFFFFF;
+    padding: 20px;
 }
+.f-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+.f-flex img{
+ margin: 10px;
+}
+.f-flex .icons{
+  margin: 10px;
+}
+.icons .fab,
+.icons .fas{
+    padding: 0 10px;
+}
+.icons .fab:hover,
+.icons .fas:hover{
+    color: var(--primary-color-1);
+}
+.foot-menu{
+    grid-column: 1/7;
+}
+.foot-menu a{
+    padding: 10px;
+    font-weight: bolder;
+}
+.foot-menu a:hover{
+    color: var(--primary-color-1);
+}
+.foot-info{
+    grid-column: 10/15;
+}
+#foot .grid{
+    margin: 50px 0;
+    font-size: 0.7em;
+}
+
 
 /* .list {
     @apply tw-hidden lg:tw-flex tw-flex-col lg:tw-flex-row !important;
