@@ -335,14 +335,14 @@ header h2:nth-of-type(2) {
     background-color: #2e3047;
     padding: 30px;
     display: grid;
-    grid-template-columns: repeat(1fr, 2);
-    grid-template-rows: auto;
-    grid-gap: 100px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(1fr, 2);
+    /* grid-gap: 100px; */
     width: 100%;
 }
 
 .left {
-    grid-column: 1/2;
+    grid-row: 1/2;
     color: #fff;
 }
 
@@ -350,14 +350,12 @@ header h2:nth-of-type(2) {
     color: #3bba9c;
     text-transform: uppercase;
     width: 226px;
-    /* left: 70px;
-    top: 4209px; */
     font-weight: 900;
     font-size: 36px;
 }
 
 .right {
-    grid-column: 2/3;
+    grid-row: 2/3;
     color: #3bba9c;
     margin-top: 30px;
 }
@@ -560,5 +558,30 @@ footer {
 @media only screen and (max-width: 700px) {
     .partner img {
         margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 748px) {
+    .contact {
+        background-color: #2e3047;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(1fr, 2);
+        grid-template-rows: 1fr;
+        grid-gap: 100px;
+        width: 100%;
+    }
+
+    .left {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        color: #fff;
+    }
+
+    .right {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        color: #3bba9c;
+        margin-top: 30px;
     }
 }
