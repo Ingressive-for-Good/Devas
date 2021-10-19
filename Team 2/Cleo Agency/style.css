@@ -195,6 +195,10 @@ header h2:nth-of-type(2) {
 }
 
 .partner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 20px;
     background: #f6f6f6;
     width: 100%;
     display: flex;
@@ -550,5 +554,11 @@ footer {
     header h2:nth-of-type(2) {
         top: 480px;
         left: 605px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .partner img {
+        margin-top: 20px;
     }
 }
