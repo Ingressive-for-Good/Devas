@@ -264,9 +264,9 @@ font-family: var(--primary-font);
 }
 .merch{
     background: white;
-    margin: 4px;
+    margin: 6px;
     padding: 10px;
-    border-radius: 6px;
+    border-radius: 10px;
     cursor: pointer;
     transition: transform 0.5s;
   }  
