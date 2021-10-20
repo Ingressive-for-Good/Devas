@@ -268,9 +268,10 @@ font-family: var(--primary-font);
     padding: 10px;
     border-radius: 6px;
     cursor: pointer;
+    transition: transform 0.5s;
   }  
 .merch:hover{
- transform: translateY(-5px);
+ transform: scale(1.05);
 }
 
 .a-merch{
