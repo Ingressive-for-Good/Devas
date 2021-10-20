@@ -419,18 +419,18 @@ font-family: var(--primary-font);
     font-weight: bolder;
 }
 /* Blacksuqad Section */
-#blacksuqad{
-    height: 576px;
-}
 .b-flex{
     display: flex;
-    margin: 0;
-    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.b-flex img:nth-child(5){
+.b-flex img{
+    width: 269px;
+}
+/* .b-flex img:nth-child(5){
  width: -40%;
  height: auto;
-}
+} */
 /* Contact Section*/
 #contact{
     height: 214px;
