@@ -108,7 +108,7 @@ header{
 /* Hero-Section */
 .hero-section{
     background: var(--primary-color-1);
-    height: 575px;
+    height: 585px;
 }
 .cover-image{
      grid-column: 1/5;
