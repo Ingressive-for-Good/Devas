@@ -108,20 +108,17 @@ header{
 /* Hero-Section */
 .hero-section{
     background: var(--primary-color-1);
-    /* height: 585px; */
+    /* height: 450px; */
 }
 .cover-image{
-     grid-column: 1/5;
-    background-image:url(../asserts/Vector.png);
-    background-repeat: no-repeat;
-    margin: 50px 11px 10px 40px;
+     grid-column: 1/4;
 }
 .cover-image img{
    max-width: 100%;
 }
 .welcome-texts{
-     margin-top:50px;
-    grid-column: 8/11;
+    margin-top:50px;
+    grid-column: 6/11;
 }
 .welcome-texts-h4{
 font-size: 1.8em;
@@ -177,7 +174,7 @@ font-family: var(--primary-font);
 
 .bball-images{
     margin-top: 20px;
-    grid-column: 14/15;
+    grid-column: 13/14;
 }
 .bball-images .ball,
 .bball-images .ball-basket{
@@ -423,6 +420,7 @@ font-family: var(--primary-font);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex-basis: 400px;
 }
 .bs img{
     width: 269px;
