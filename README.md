@@ -1,6 +1,6 @@
 # DEVAS
 
-![image](https://user-images.githubusercontent.com/49078266/138476991-ccf2b6ec-6d76-4ff1-8c23-faed9ce2792a.png)
+![image](https://user-images.githubusercontent.com/49078266/138479552-638c2eb9-e6a1-4084-837b-919f24a771df.png)
 
 | Team | Figma Link |
 | --- | --- |
