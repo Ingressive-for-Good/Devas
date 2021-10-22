@@ -1,6 +1,9 @@
-# javascript-template
-Javascript Boilerplate for starting Javascript Projects like NodeJs, React etc
+# DEVAS
+![image](https://user-images.githubusercontent.com/49078266/138476991-ccf2b6ec-6d76-4ff1-8c23-faed9ce2792a.png)
 
+Team 1  | Brick   |   https://www.figma.com/file/2tTdPJVLrtdebQrtxhy5NW/Team1?node-id=0%3A1
+Team 2  | Cleo    |   https://www.figma.com/file/xvC240lOdDpaeZitqTAgYZ/DevasTeam2
+Team 3  | Tigress |   https://www.figma.com/file/EgDkHecdrR22bUQg4rq9qQ/Team3?node-id=0%3A1
 
 CONTRIBUTION GUIDE
 
