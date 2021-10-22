@@ -1,5 +1,11 @@
 # Welcome to D'Tigress
 
+This project designs a website for Digress Basketball Team
+
+![image](https://user-images.githubusercontent.com/49078266/138481575-bd1e5de7-17a5-4b0e-a583-1eb05dd0d648.png)
+ 
+ The figma link can be found here: https://www.figma.com/file/EgDkHecdrR22bUQg4rq9qQ/Team3?node-id=0%3A1
+
 ## here is a minimal setup
 
 1. Run `npm install` to install all dependencies.
