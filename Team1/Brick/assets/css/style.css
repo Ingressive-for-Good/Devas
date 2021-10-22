@@ -1,3 +1,12 @@
 .nav-item img{
     height: 40px;
 }
+
+footer ul li{
+    border: none!important;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
