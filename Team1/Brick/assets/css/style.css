@@ -29,3 +29,27 @@ footer ul li a{
 input{
     display: none;
 }
+
+.portfolios .row .first{
+    background-image: url(../img/Rectangle\ 55.png); 
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: center;
+    height: 300px;
+}
+
+.portfolios .row .second{
+    background-image: url(../img/Rectangle\ 56.png); 
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: center;
+    height: 300px;
+}
+
+.portfolios .row .third{
+    background-image: url(../img/Rectangle\ 55-1.png); 
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: center;
+    height: 300px;
+}
