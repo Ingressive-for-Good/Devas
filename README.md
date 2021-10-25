@@ -5,7 +5,7 @@
 | Team | Figma Link | Hosted Link |
 | --- | --- | --- |
 | Brick | https://www.figma.com/file/2tTdPJVLrtdebQrtxhy5NW/Team1?node-id=0%3A1 |https://bricks-team.netlify.app/ |
-| Cleo Agency | https://www.figma.com/file/xvC240lOdDpaeZitqTAgYZ/DevasTeam2 | |
+| Cleo Agency | https://www.figma.com/file/xvC240lOdDpaeZitqTAgYZ/DevasTeam2 |https://cleoagency-team.netlify.app/ |
 | D'Tigress | https://www.figma.com/file/EgDkHecdrR22bUQg4rq9qQ/Team3?node-id=0%3A1 | https://dtigress-team.netlify.app/ |
 
 CONTRIBUTION GUIDE
